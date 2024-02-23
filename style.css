@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+nav{
+    display:flex;
+    padding: 2px 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    flex:1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position:relative;
+ 
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration: none;
+    font-size:20px;
+    
+}
+h2{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;;
+}
+figure img {
+    margin: auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+figure figcaption ul{
+    text-align: center;
+}
+figure figcaption ul li{
+    display:grid;
+}
+figure ul li{  
+    text-align:center; 
+}
+figure figcaption{
+    text-align: center;
+}
